@@ -51,12 +51,7 @@
   \lean{Submodule.orthogonalProjection}
   \leanok
   $\forall v \in E,\ \exists w \in K \st v - w \in K^\perp$とする．
-  次を満たす連続写像$\operatorname{proj}_K : \map{E}{K}; \operatorname{proj}_K(v) = w$を\textbf{正射影(projection)}という：
-  \begin{itemize}
-    \item $\forall x, y \in E,\ \operatorname{proj}_K(x + y) = \operatorname{proj}_K(x) + \operatorname{proj}_K(y)$,
-    \item $\forall c \in \bm{k}, x \in E,\ \operatorname{proj}_K(c \cdot x) = c \cdot \operatorname{proj}_K(x)$,
-    \item $\forall x \in E,\ \norm{\operatorname{proj}_K(x)} \le \norm{x}$.
-  \end{itemize}
+  線型連続写像$\operatorname{proj}_K : \map{E}{K}; \operatorname{proj}_K(v) = w$を\textbf{正射影(projection)}という．
   すなわち，$x \in E$を$x = \operatorname{proj}_K(x) + (x - \operatorname{proj}_K(x)) \in K \oplus K^\perp$と書ける．
 \end{defi}
 
